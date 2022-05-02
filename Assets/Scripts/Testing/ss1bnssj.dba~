@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ScaleModel : MonoBehaviour
+{
+    [SerializeField] public GameObject model;
+    [SerializeField] private GameObject target1;
+    [SerializeField] private GameObject target2;
+    [SerializeField] private Text dist;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        float markerdist = 
+        this.transform.position = this.transform.position * 1.5f;
+        model.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
+        model.transform.position = model.transform.position + new Vector3(0, 0, -(0.1125f+markerdist) / 2f);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
