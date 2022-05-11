@@ -15,7 +15,8 @@ public class GameUI : MonoBehaviour
     void Start()
     {
         instructions.gameObject.SetActive(false);
-        offBtn.gameObject.SetActive(false);
+        boundingBox.gameObject.SetActive(false);
+        onBtn.gameObject.SetActive(false);
     }
 
     public void showSelection()
