@@ -11,6 +11,7 @@ public class MarkerSignaling : MonoBehaviour
         Parameters markerParams = new Parameters();
         markerParams.PutExtra(ParamConstants.Extra_Keys.MARKER_NAME, marker);
         markerParams.PutExtra(ParamConstants.Extra_Keys.MARKER_STATUS, true);
+        //markerParams.PutExtra(ParamConstants.Extra_Keys.MARKER_OBJECT, gameObject);
         EventBroadcaster.Instance.PostEvent(EventNames.Anamorphosis_Events.ON_MARKER_FOUND, markerParams);
     }
 
@@ -21,6 +22,7 @@ public class MarkerSignaling : MonoBehaviour
         Parameters markerParams = new Parameters();
         markerParams.PutExtra(ParamConstants.Extra_Keys.MARKER_NAME, marker);
         markerParams.PutExtra(ParamConstants.Extra_Keys.MARKER_STATUS, false);
+        //markerParams.PutExtra(ParamConstants.Extra_Keys.MARKER_OBJECT, gameObject);
         EventBroadcaster.Instance.PostEvent(EventNames.Anamorphosis_Events.ON_MARKER_LOST, markerParams);
     }
 }
