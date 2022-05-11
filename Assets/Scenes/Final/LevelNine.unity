@@ -297,6 +297,35 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2987741764594998337, guid: 8f6f976ab2262e949a436a316bf4f4f0, type: 3}
   m_PrefabInstance: {fileID: 2987741764127737668}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &598506147
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'marker-grass-markMaterial
+
+    -233536'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 771bf3ddd6c27fe45a5cd2d0b5509326, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &761806478 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3681370853448687762, guid: da07ca5de1e81644cb232a374729fc51, type: 3}
@@ -353,6 +382,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7638114486753812321, guid: 65429f20e7729844d8f45abfbe3c0ddd, type: 3}
+      propertyPath: markerArray.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7638114486753812321, guid: 65429f20e7729844d8f45abfbe3c0ddd, type: 3}
+      propertyPath: markerArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 761806478}
+    - target: {fileID: 7638114486753812321, guid: 65429f20e7729844d8f45abfbe3c0ddd, type: 3}
+      propertyPath: markerArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 1604030846}
+    - target: {fileID: 7638114486753812321, guid: 65429f20e7729844d8f45abfbe3c0ddd, type: 3}
+      propertyPath: markerArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 472275717}
+    - target: {fileID: 7638114486753812321, guid: 65429f20e7729844d8f45abfbe3c0ddd, type: 3}
+      propertyPath: markerArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 788819859}
     - target: {fileID: 7638114486753812323, guid: 65429f20e7729844d8f45abfbe3c0ddd, type: 3}
       propertyPath: m_Name
       value: MarkerDetector
@@ -375,7 +424,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 880690118832713219, guid: 77411e8dc2fdb6a4191e36d5db4ab293, type: 3}
   m_PrefabInstance: {fileID: 880690118212190608}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &935157751
+--- !u!21 &968306400
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -384,7 +433,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: 'marker-road-markMaterial
 
-    -19430'
+    -233248'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -568,16 +617,16 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!21 &1303289179
+--- !u!21 &1125831132
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'marker-grass-markMaterial
+  m_Name: 'marker-wood-markMaterial
 
-    -19698'
+    -233600'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -590,36 +639,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 771bf3ddd6c27fe45a5cd2d0b5509326, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
-  m_BuildTextureStacks: []
---- !u!21 &1558524979
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'marker-pebbles-markMaterial
-
-    -19750'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1dd23cc28fb7c664585d3e42694d3908, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5c0e0580aa5650742a77b7392be97212, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -959,16 +979,16 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!21 &1857357900
+--- !u!21 &1874509939
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: 'marker-wood-markMaterial
+  m_Name: 'marker-pebbles-markMaterial
 
-    -19762'
+    -233588'
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -981,7 +1001,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5c0e0580aa5650742a77b7392be97212, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1dd23cc28fb7c664585d3e42694d3908, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1611,7 +1631,7 @@ PrefabInstance:
     - target: {fileID: 880690118832713222, guid: 77411e8dc2fdb6a4191e36d5db4ab293, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 935157751}
+      objectReference: {fileID: 968306400}
     - target: {fileID: 880690118832713224, guid: 77411e8dc2fdb6a4191e36d5db4ab293, type: 3}
       propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2384,7 +2404,7 @@ PrefabInstance:
     - target: {fileID: 2987741764594998348, guid: 8f6f976ab2262e949a436a316bf4f4f0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1303289179}
+      objectReference: {fileID: 598506147}
     - target: {fileID: 2987741764594998350, guid: 8f6f976ab2262e949a436a316bf4f4f0, type: 3}
       propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2556,7 +2576,7 @@ PrefabInstance:
     - target: {fileID: 3681370853448687757, guid: da07ca5de1e81644cb232a374729fc51, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1558524979}
+      objectReference: {fileID: 1874509939}
     - target: {fileID: 3681370853448687759, guid: da07ca5de1e81644cb232a374729fc51, type: 3}
       propertyPath: OnTargetLost.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -2693,7 +2713,7 @@ PrefabInstance:
     - target: {fileID: 4089548208753909675, guid: 5c47713247b1fe34d8b54dae2ae17940, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1857357900}
+      objectReference: {fileID: 1125831132}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c47713247b1fe34d8b54dae2ae17940, type: 3}
 --- !u!1 &4270602973217210289
