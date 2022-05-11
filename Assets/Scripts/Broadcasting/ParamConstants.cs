@@ -24,5 +24,6 @@ public class ParamConstants {
         public const string MARKER_NAME = "MARKER_NAME";
         public const string MARKER_MODE = "MARKER_MODE";
         public const string MARKER_STATUS = "MARKER_STATUS";
+				public const string MARKER_ARRAY = "MARKER_ARRAY";
     }
 }

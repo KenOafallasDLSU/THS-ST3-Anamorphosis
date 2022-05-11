@@ -1,13 +1,12 @@
 {
   "dependencies": {
     "com.ptc.vuforia.engine": {
-      "version": "8.5.9",
+      "version": "file:com.ptc.vuforia.engine-10.6.3.tgz",
       "depth": 0,
-      "source": "registry",
+      "source": "local-tarball",
       "dependencies": {
         "com.unity.ugui": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
+      }
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
