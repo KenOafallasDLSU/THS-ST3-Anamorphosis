@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Final/LevelOne.unity
     guid: f6d677d559f66af46a6cc912fe376471
   - enabled: 1
-    path: Assets/Scenes/Final/LevelTwo.unity
-    guid: c35bbc75dcf51d642814411ab8b535dc
-  - enabled: 1
     path: Assets/Scenes/Final/LevelThree.unity
     guid: 19119afc56dc02d4f9fc63b32c926de5
   - enabled: 1
@@ -41,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final/LevelTen.unity
     guid: 83b12238f83adb3428c3b050a84ae150
+  - enabled: 1
+    path: Assets/Scenes/Final/Sponza.unity
+    guid: 30c1ed3c747774943a561cf32ee50b26
   m_configObjects: {}
