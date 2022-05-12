@@ -1,10 +1,6 @@
 using UnityEngine;
 using System.Collections;
 
-/*
- * Holder for event names
- * Created By: NeilDG
- */ 
 public class ParamConstants {
 	public class Marker_Names {
 		public const string PEBBLES = "PEBBLES";

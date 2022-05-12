@@ -873,7 +873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07edcee231c224847a946db27558d9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resetButton: {fileID: 0}
+  resetButton: {fileID: 6501831075105316051}
 --- !u!1 &2807375876502709304
 GameObject:
   m_ObjectHideFlags: 0
