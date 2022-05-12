@@ -195,7 +195,13 @@ public class AnamorphicTransformer : MonoBehaviour
 
         // the positions also needs to scale to preserve anamorphism
         // the rotation follows the main target's rotation
-        model.transform.localScale = new Vector3(scale, scale, scale);
+        if(newMode == ParamConstants.Tracking_Modes.FOUR_MARKER_MODE)
+            model.transform.localScale = new Vector3(scale*1.4f, scale*1.4f, scale*1.4f);
+        else if(newMode == ParamConstants.Tracking_Modes.TWO_MARKER_MODE)
+            model.transform.localScale = new Vector3(scale*1.2f, scale*1.2f, scale*1.2f);
+        else
+            model.transform.localScale = new Vector3(scale, scale, scale);
+
         model.transform.position = centerPosition;
 
         this.targetPosition.Clear();
@@ -227,5 +233,6 @@ public class AnamorphicTransformer : MonoBehaviour
     private void OnDestroy()
     {
         EventBroadcaster.Instance.RemoveObserver(EventNames.Anamorphosis_Events.ON_MARKER_MODE_CHANGE);
+        EventBroadcaster.Instance.RemoveAllObservers();
     }
 }
