@@ -233,5 +233,6 @@ public class AnamorphicTransformer : MonoBehaviour
     private void OnDestroy()
     {
         EventBroadcaster.Instance.RemoveObserver(EventNames.Anamorphosis_Events.ON_MARKER_MODE_CHANGE);
+        EventBroadcaster.Instance.RemoveAllObservers();
     }
 }
