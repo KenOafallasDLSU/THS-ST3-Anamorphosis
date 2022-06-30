@@ -12,9 +12,9 @@ The system is a mobile marker-based augmented reality (AR) anamorphic puzzle gam
 4. Import Vuforia Engine into the Unity project from the menu **Assets &rarr; Import Package &rarr; Custom Package.**
 
 ## Project Files
-1. There are a total of ten puzzles in the system. These files can be found under **Scenes/Final**.
-2. Scripts that are attached to the objects in the scenes can be found under the **Scripts** folder.
-3. The models that were used, both whole and sliced, can be found under the **Models** folder.
+- There are a total of ten puzzles in the system. These files can be found under **Scenes/Final**.
+- Scripts that are attached to the objects in the scenes can be found under the **Scripts** folder.
+- The models that were used, both whole and sliced, can be found under the **Models** folder.
 
 # Running the Application
 The application APK installer is available and can be downloaded from a public [Google Drive link](https://drive.google.com/file/d/1a8SvaJIMOKkWCw5iGp4qtIfQbK-LDMFD/view?usp=sharing).
